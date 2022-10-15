@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9FD7DF"
+    tools:context=".SportsProgram1Activity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sizin için hazırladığımız özel spor programı:"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1.gün Pazartesi"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Squat Lunges, Şınav, Barfiks, Inverted Row, Prone Cobra, Hip Bridge, Mountain Climber, Plank, Burpees." />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2.gün Salı"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back Squat, Split Squat, Bench Press, Barbell Row, Overhead Press, Arnold Press, Romanian Deadlift…" />
+
+        <TextView
+            android:id="@+id/textView32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3.gün perşembe"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Squat 5x5	Squat 5x5	Squat 5x5 Bench Press 5x5	Overhead Press 5x5" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.gün cumartesi"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bench Press 5x5 Ağırlıklı Barfiks 5x5	Deadlift 1x5	Bentover Row 5x5 Ağırlıklı Dips 5x5" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. gün pazar"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Squat Lunges, Şınav, Barfiks, Inverted Row, Prone Cobra, Hip Bridge, Mountain Climber, Plank, Burpees." />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/dumbell" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

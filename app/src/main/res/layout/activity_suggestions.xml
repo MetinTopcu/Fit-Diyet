@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/watter"
+    android:backgroundTint="#00B8D4"
+    android:backgroundTintMode="add"
+    tools:context=".SuggestionsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="For you general suggestions"
+        android:textColor="#011619"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <TextView
+        android:id="@+id/textView59"
+        android:layout_width="391dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:text=" Eat well. ... stay away from alcohol. ... Sleep regularly. ... Do sports. ... Stay away from the sun. ... Keep your brain active. ... control yourself. ... Stay clean."
+        android:textColor="#011619"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView58" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:text="Water"
+        android:textColor="#011619"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView59" />
+
+    <TextView
+        android:id="@+id/textView61"
+        android:layout_width="410dp"
+        android:layout_height="219dp"
+        android:layout_marginTop="15dp"
+        android:text=" A healthy adult should drink approximately 35 ml of water per kilogram of weight per day. At least according to the general guidelines of scientific organizations. A person weighing 50 kilograms should drink 1.7 liters, a person weighing 60 kilograms should drink 2.1 liters, a person weighing 70 kilograms should drink 2.4 liters and a person weighing 80 kilograms should drink 2.8 liters. The general rule is: the heavier you are, the more water you need.  Think there's no such thing as consuming too much water? Drinking too much water is just as bad as not drinking enough. The recommended daily amount reflects the amount your kidneys and heart can handle. "
+        android:textColor="#011619"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView60" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#52ACBA"
+    tools:context=".KeepFitActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sizin için hazırladığımız özel beslenme programı:"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1 dilim kepek ekmeği, 1 yemek kaşığı yağsız peynir, domates, salatalık, 4-5 adet zeytin ARA ÖĞÜN: 1 porsiyon meyve, 2 adet ceviz ÖĞLE YEMEĞİ: 3 adet ızgara köfte, üzerinde 1 tatlı kaşığı zeytinyağı gezdirilmiş salata, 1 dilim tam buğday ekmeği ARA ÖĞÜN: Yarım paket diyet bisküvi, 1 bardak süt AKŞAM YEMEĞİ: 1 porsiyon etsiz sebze yemeği, üzerinde 1 tatlı kaşığı zeytinyağı gezdirilmiş salata, 1 kase yoğurt ARA ÖĞÜN: 1 porsiyon meyve, 10 adet fındık"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Toplam 2500 kalori"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/besii" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
